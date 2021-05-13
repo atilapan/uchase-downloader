@@ -1,0 +1,26 @@
+{
+	"name":"Ucha.se Downloader",
+	"version":"1.1",
+	"manifest_version":2,
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"downloads",
+		"https://ucha.se/watch/*"
+	],
+	"page_action": {
+		"default_icon": "images/logo.png"
+	},
+	"background": {
+		"scripts": [
+		  "js/backgroundWorker.js"
+		],
+		"persistent": false
+	},
+	"icons": {                   
+		"16": "images/logo-16.png",
+		"36": "images/logo-36.png",
+		"48": "images/logo-48.png",
+		"144": "images/logo-144.png"  
+	}
+}
